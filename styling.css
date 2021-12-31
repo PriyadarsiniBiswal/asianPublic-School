@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background: #fff;
+    width: 100%;
+}
+.menu-bar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+    margin-bottom: 0;
+}
+.menu-bar .logo img {
+    width: 100px;
+    height: 70px;
+    padding-left: 1rem;
+}
+.menu-bar ul li {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-right: 2rem;
+    margin-top: 1rem;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.menu-bar ul li button {
+    background: rgb(247, 126, 28);
+    border-color: rgb(247, 126, 28);
+    padding: 10px 25px 10px 25px;
+    overflow: hidden;
+}
+.menu-bar ul li button a {
+    color: #fff;
+}
+/*---------------------------------Popup Announcement----------------------------------------------*/
+.popup-msg .popup-announcement{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(247, 126, 28);
+}
+/*---------------------------------cover page----------------------------------------------*/
+.img-cover {
+    display: flex;
+}
+.tringle-side {
+    height: 71vh;
+    width: 50%;
+    background-color: rgb(64, 64, 221);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 11rem;
+}
+.tringle-side h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    border-bottom: 3px solid #fff;
+    
+}
+.tringle-side .btn {
+    padding: 0.7rem 1.5rem;
+    background: #fff;
+    color: rgb(247, 126, 28);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 1px;
+}
+.tringle-side .btn:hover {
+    background: rgb(247, 126, 28);
+    color: #fff;
+}
+
+.img-slider {
+    flex-basis: 50%;
+}
+.img-slider img {
+    width: 100%;
+}
+ /*---------------------------About Content-----------------------------------*/
+ .about {
+    background-color: #e2e7f8;
+    margin-top: 2rem;
+ }
+.about .row{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about .row .overview {
+    flex-basis: 50%;
+}
+.about .row .overview h1{
+    text-align: left;
+    margin: 0 3rem 0;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+    color: #1244db;
+}
+.about .row .overview p {
+    margin: 1rem 0.5rem 0 3rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 0.5rem;
+}
+.about .images img {
+    width: 100%;
+    height: 80vh;
+    padding: 2rem;
+}
+
+/*---------------------------------History of the page----------------------------------------------------------*/
+.history {
+    background-color: #dfe4f7;
+}
+.history .row{
+    display: flex;
+    justify-content: center;
+}
+.history .row .history-col-left{
+   flex-basis: 50%;
+}
+.history .row .history-col-left img {
+    width: 100%;
+    padding: 0 2rem;
+}
+.history .row .history-col-right{
+    flex-basis: 50%;
+    justify-content: center;
+}
+.history .row .history-col-right h1 {
+    text-align: left;
+    margin: 0 3rem 0;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+    color: #1244db;
+}
+.history .row .history-col-right p {
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    margin: 0.5rem 2rem;
+    padding: 0 0.5rem;
+}
+.history .row .history-col-right .btn {
+    padding: 0.7rem 1.5rem;
+    margin: 0.5rem 0 0.5rem 18rem;
+    background: rgb(247, 126, 28);
+    color: #0e2ee6;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 1px;
+}
+.history .row .history-col-right .btn:hover {
+    background: #0e2ee6;
+    color: rgb(247, 126, 28);
+}
+/*----------------------Footer section------------------------------------------------*/
+.footer {
+    background-image: linear-gradient(rgba(17, 28, 92, 0.5),rgba(17, 28, 92, 0.5)), url(./Images/footer1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: 1rem;
+    padding-top: 10rem;
+}
+.footer .row {
+    display: flex;
+    flex-basis: 80%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 10rem;
+}
+.footer .row .address {
+    display: flex;
+}
+.footer .row .address img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
