@@ -12,7 +12,6 @@
     display: flex;
     margin: auto;
     justify-content: space-between;
-
     margin-bottom: 0;
 }
 .menu-bar .logo img {
@@ -94,7 +93,85 @@
 .img-slider img {
     width: 100%;
 }
- /*---------------------------About Content-----------------------------------*/
+/*----------------------------------Home page------------------------------------------*/
+.foundation {
+
+}
+.foundation h1 {
+    margin: 1rem;
+    color: #3455eb;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1rem 8rem;
+}
+.foundation .row {
+    display: flex;
+    flex-basis: 80%;
+    justify-content: center;
+}
+.foundation .row .col-left {
+   flex-basis: 40%;
+}
+.foundation .row .col-left img {
+    width: 100%;
+    height: 60vh;
+}
+.foundation .row .col-right {
+    flex-basis: 40%;
+ }
+ .foundation .row .col-right p {
+     align-items: center;
+     text-align: justify;
+     padding: 0.5rem 2rem;
+     color: #3d3d41;
+     font-size: 1.1rem;
+     font-weight: 600;
+ }
+ .foundation .row .col-right .explore {
+     margin: 2rem 3rem;
+     padding: 0.7rem 2rem;
+     background: #4e60e9;
+     overflow: hidden;
+     color: #fff;
+     border: none;
+     border-radius: 3px;
+     font-size: 1rem;
+     font-weight: 500;
+     cursor: pointer;
+     transition: 1s;
+ }
+ .foundation .row .col-right .explore a {
+     text-decoration: none;
+ }
+ .foundation .row .col-right .explore a i {
+     padding: 0.2rem;
+ }
+ .foundation .row .col-right .explore:hover {
+    background: #1327c0;
+    color: #fff;
+ }
+ /*-----------------------Achievement section-------------------------------*/
+ .achievements .achievement-img{
+     justify-content: center;
+     align-items: center;
+     margin: 0 3rem 0 32rem;
+     margin-top: -5rem;
+ }
+ .achievements .achievement-img img{
+     width: 90%;
+     height: 80%;
+ }
+ .achievements .achievement-img .layer{
+     display: flex;
+     height: 80%;
+     width: 90%;
+     justify-content: space-evenly;
+     align-items: center;
+     text-align: center;
+     background-image: linear-gradient(rgba(96, 107, 209, 0.7),rgba(96, 107, 209, 0.7));
+ }
+
+ /*---------------------------About page-----------------------------------*/
  .about {
     background-color: #e2e7f8;
     margin-top: 2rem;
@@ -287,3 +364,21 @@
     background: rgba(21, 68, 197, 0.7);
     position: absolute;
 }
+.footer .footer-para {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer .footer-para p {
+    color: #fff;
+    text-align: center;
+    padding: 10px 12rem;
+}
+.footer .footer-down p{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+/*--------------------------------------------------------------------------------*/
