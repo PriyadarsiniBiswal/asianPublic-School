@@ -150,26 +150,114 @@
     background: #1327c0;
     color: #fff;
  }
- /*-----------------------Achievement section-------------------------------*/
- .achievements .achievement-img{
+ /*-----------------------Mission & Vision section-------------------------------*/
+ .mission-vision .mission-vision-img{
      justify-content: center;
      align-items: center;
      margin: 0 3rem 0 32rem;
      margin-top: -5rem;
  }
- .achievements .achievement-img img{
+ .mission-vision .mission-vision-img img{
      width: 90%;
      height: 80%;
  }
- .achievements .achievement-img .layer{
+ .mission-vision .mission-vision-img .layer{
      display: flex;
-     height: 80%;
-     width: 90%;
+     height: 69%;
+     width: 57%;
      justify-content: space-evenly;
      align-items: center;
      text-align: center;
-     background-image: linear-gradient(rgba(96, 107, 209, 0.7),rgba(96, 107, 209, 0.7));
+     background-image: linear-gradient(rgba(5, 5, 48, 0.5),rgba(5, 5, 48, 0.5));
+     position: absolute;
+     transform: translateY(-100%);
  }
+ .mission-vision .mission-vision-img .layer .row {
+     display: flex;
+     flex-basis: 80%;
+ }
+ .mission-vision .mission-vision-img .layer .row .mission h1, .vision h1 {
+     color: #fff;
+     margin-bottom: 1rem;
+     font-weight: bold;
+     font-size: 1.8rem;
+ }
+ .mission-vision .mission-vision-img .layer .row .mission p, .vision p {
+     color: #fff;
+     text-align: justify;
+     padding: 1.5rem;
+     font-size: 1.1rem;
+ }
+
+  /*---------------------------Achievement section-----------------------------------*/
+ .achievements {
+     background: #0e47c2;
+     width: 100%;
+     height: 60vh;
+     margin: 2rem 0;
+    
+ }
+ .achievements .row {
+     display: flex;
+     width: 80%;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+.achievements .row .achievement-blog {
+     margin: 1rem 1rem 0 16rem;
+     padding: 1rem;
+}
+.achievements .row .achievement-blog h1 {
+    margin: 1rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.achievements .row .achievement-blog p {
+    color: #fff;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.achievements .row .achievement-blog .btn {
+    text-align: left;
+    margin-left: 1rem;
+}
+.achievements .row .achievement-blog .view-btn {
+    background: #fff;
+    color: #0e47c2;
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.achievements .row .achievement-blog .view-btn i {
+    padding-left: 10px;
+}
+.achievements .row .achievement-images {
+    padding: 1rem 0 1rem 2rem;
+    margin-top: 5rem;
+}
+.achievements .row .achievement-images img {
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
  /*---------------------------About page-----------------------------------*/
  .about {
